@@ -12,9 +12,10 @@ if(guestList.includes(guestName)){
 // Guest Name End
 
 
+
+
+
 // Fizz Buzz Game Start
-
-
 var output=[];
 var count= 1 ;
  
@@ -36,5 +37,8 @@ else{
     console.log(output);
 }
 // Fizz Buzz Game End
+
+
+
 
 
