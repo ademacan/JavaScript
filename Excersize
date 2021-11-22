@@ -40,5 +40,16 @@ else{
 
 
 
+// Who is Paying Lunch Today Start
+var names=["Angela","Ben","Jenny","Michael","Chole"];
 
+function whosPaying(names){
+    
+    var numberOfPeople=names.lenght;
+    var randomPeronPosition=Math.floor(Math.random() * numberOfPeople);
+    var randomPerson=names[randomPeronPosition];
+
+    return randomPerson+" is going to buy lunch today";
+}
+// Who is Paying Lunch Today End
 
